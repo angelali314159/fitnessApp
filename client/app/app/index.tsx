@@ -7,6 +7,7 @@ export default function Page() {
         <Text style={styles.title}>Hello World</Text>
         <Text style={styles.subtitle}>This is the first page of your app.</Text>
         <Text style={styles.testing}> I think I did something!</Text>
+        <Text style={styles.testing}> Login </Text>
       </View>
     </View>
   );
