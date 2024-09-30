@@ -7,19 +7,19 @@ interface PageProps {
 }
 
 export default function Page({ exercises }: PageProps) {
+  exercises = ['Push-ups', 'Squats', 'Lunges', 'Plank'];
   return (
     <View style={styles.container}>
       <View style={styles.topHeader}>
         <Text style={styles.headerText}>Workout</Text>
       </View>
-      <Link href={{
-        pathname: "/inWorkout",
-        params: {exercises: ['Push-ups', 'Squats', 'Lunges', 'Plank']}
-      }}>
-      <Pressable>
-        <Text>Start</Text>
-      </Pressable>
-    </Link>
+      <View style={styles.exercises}>
+        {exercises.map((exercise, index) => (
+          <View key={index} style={styles.exerciseContainer}>
+            <Text>{exercise}</Text>
+          </View>
+        ))}
+      </View>
     </View>
   );
 }
