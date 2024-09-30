@@ -17,6 +17,7 @@ export default function Page({ exercises }: PageProps) {
         {exercises.map((exercise, index) => (
           <View key={index} style={styles.exerciseContainer}>
             <Text>{exercise}</Text>
+            
           </View>
         ))}
       </View>
