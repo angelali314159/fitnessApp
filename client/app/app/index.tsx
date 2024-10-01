@@ -8,6 +8,9 @@ export default function Page() {
         <Text style={styles.subtitle}>arms (or whatever muscle group its categorized under)</Text>
         <Text style={styles.testing}>description</Text>
       </View>
+      <View style={styles.rectangle}>
+        <Text style={styles.text}>Video</Text>
+      </View>
     </View>
   );
 }
@@ -37,5 +40,18 @@ const styles = StyleSheet.create({
   testing: {
     fontSize: 20,
     color: "#5DADE2",
+  },
+  rectangle: {
+    width: 300,
+    height: 150,
+    backgroundColor: "#4169E1",
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: 2,
+  },
+  text: {
+    fontSize: 20,
+    color: "#00008B",
+    textAlign: "center",
   }
 });
