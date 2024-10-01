@@ -15,14 +15,14 @@ export default function Page() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: "flex-start",
+    alignItems: "flex-end",
     padding: 24,
   },
   main: {
     flex: 1,
-    justifyContent: "center",
+    justifyContent: "flex-start",
     maxWidth: 960,
-    marginHorizontal: "auto",
+    //marginHorizontal: "auto",
   },
   title: {
     fontSize: 50,
