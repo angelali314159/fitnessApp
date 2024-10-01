@@ -4,9 +4,9 @@ export default function Page() {
   return (
     <View style={styles.container}>
       <View style={styles.main}>
-        <Text style={styles.title}>Hello World</Text>
-        <Text style={styles.subtitle}>This is the first page of your app.</Text>
-        <Text style={styles.testing}> I think I did something!</Text>
+        <Text style={styles.title}>bicep curl</Text>
+        <Text style={styles.subtitle}>arms (or whatever muscle group its categorized under)</Text>
+        <Text style={styles.testing}> description</Text>
       </View>
     </View>
   );
@@ -25,15 +25,16 @@ const styles = StyleSheet.create({
     marginHorizontal: "auto",
   },
   title: {
-    fontSize: 64,
+    fontSize: 57,
+    color: "#00008B",
     fontWeight: "bold",
   },
   subtitle: {
-    fontSize: 36,
-    color: "#38434D",
+    fontSize: 39,
+    color: "#4169E1",
   },
   testing: {
-    fontSize: 24,
-    color: "#ab361d",
+    fontSize: 30,
+    color: "#5DADE2",
   }
 });
