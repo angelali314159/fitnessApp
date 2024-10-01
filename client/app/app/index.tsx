@@ -11,7 +11,7 @@ export default function Page() {
           <Text style={styles.goalText}>Long term goal</Text>
         </View>
 
-        {/* Rectangle below the goals */}
+        
         <View style={styles.rectangle} />
         <View style={styles.rectangle2} />
       </View>
@@ -56,17 +56,17 @@ const styles = StyleSheet.create({
     fontSize: 24,
     color: "#A9A9A9",
   },
-  // Rectangle styling
+ 
   rectangle: {
-    width: 1000, // Adjust the width of the rectangle
-    height: 200, // Adjust the height of the rectangle
-    backgroundColor: 'lightblue', // Color of the rectangle
-    marginTop: 20, // Spacing between the goals and the rectangle
+    width: 1000, 
+    height: 200, 
+    backgroundColor: 'lightblue', 
+    marginTop: 20, 
   },
   rectangle2: {
-    width: 1000, // Adjust the width of the rectangle
-    height: 200, // Adjust the height of the rectangle
-    backgroundColor: 'lightblue', // Color of the rectangle
-    marginTop: 20, // Spacing between the goals and the rectangle
+    width: 1000, 
+    height: 200, 
+    backgroundColor: 'lightblue', 
+    marginTop: 20, 
   },
 });
