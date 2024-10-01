@@ -15,6 +15,7 @@ export default function Page() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    justifyContent: "flex-start",
     alignItems: "flex-end",
     padding: 24,
   },
@@ -22,7 +23,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "flex-start",
     maxWidth: 960,
-    //marginHorizontal: "auto",
+    marginHorizontal: "auto",
   },
   title: {
     fontSize: 50,
@@ -30,11 +31,11 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   subtitle: {
-    fontSize: 40,
+    fontSize: 22,
     color: "#4169E1",
   },
   testing: {
-    fontSize: 30,
+    fontSize: 20,
     color: "#5DADE2",
   }
 });
