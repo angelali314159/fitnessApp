@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     borderRadius: 20,
-    marginLeft: 50
+    marginLeft: 200
   },
   text: {
     fontSize: 20,
