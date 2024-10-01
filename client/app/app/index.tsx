@@ -14,9 +14,8 @@ export default function Page() {
 
 const styles = StyleSheet.create({
   container: {
-    top: 0,
     flex: 1,
-    alignItems: "center",
+    alignItems: "flex-start",
     padding: 24,
   },
   main: {
