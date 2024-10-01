@@ -6,7 +6,7 @@ export default function Page() {
       <View style={styles.main}>
         <Text style={styles.title}>bicep curl</Text>
         <Text style={styles.subtitle}>arms (or whatever muscle group its categorized under)</Text>
-        <Text style={styles.testing}> description</Text>
+        <Text style={styles.testing}>description</Text>
       </View>
     </View>
   );
@@ -14,6 +14,7 @@ export default function Page() {
 
 const styles = StyleSheet.create({
   container: {
+    top: 0,
     flex: 1,
     alignItems: "center",
     padding: 24,
@@ -25,12 +26,12 @@ const styles = StyleSheet.create({
     marginHorizontal: "auto",
   },
   title: {
-    fontSize: 57,
+    fontSize: 50,
     color: "#00008B",
     fontWeight: "bold",
   },
   subtitle: {
-    fontSize: 39,
+    fontSize: 40,
     color: "#4169E1",
   },
   testing: {
