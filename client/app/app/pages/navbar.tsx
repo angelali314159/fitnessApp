@@ -15,6 +15,11 @@ const Navbar = () => {
           <Text style={[styles.buttonText, styles.link]}>Landing</Text>
         </Pressable>
       </Link>
+      <Link href="/pages/profile" style={styles.link}>
+        <Pressable style={styles.button}>
+          <Text style={[styles.buttonText, styles.link]}>Profile</Text>
+        </Pressable>
+      </Link>
     </View>
   );
 };
