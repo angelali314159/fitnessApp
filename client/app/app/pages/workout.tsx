@@ -7,7 +7,19 @@ interface PageProps {
   exercises: string[];
 }
 
+async function getAll() {
+  const response = await fetch(`http://localhost:5050/record/`);
+  if (!response.ok) {
+    const message = `An error occurred: ${response.statusText}`;
+    console.error(message);
+    return;
+  }
+  const records = await response.json();
+  console.log(records);
+}
+
 export default function Page({ exercises }: PageProps) {
+  getAll();
   return (
     <View style={styles.container}>
       <View style={styles.topHeader}>
