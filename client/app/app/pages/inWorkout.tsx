@@ -1,4 +1,4 @@
-import { Pressable, StyleSheet, Text, View, Switch } from "react-native";
+import { Pressable, StyleSheet, Text, View, Switch, TextInput, SafeAreaView } from "react-native";
 import { Link } from 'expo-router';
 import React, { useState } from "react";
 
@@ -19,9 +19,10 @@ export default function Page({ exercises }: PageProps) {
       return newStates;
     });
   };
+  
 
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <View style={styles.topHeader}>
         <Text style={styles.headerText}>Workout</Text>
       </View>
@@ -46,7 +47,7 @@ export default function Page({ exercises }: PageProps) {
           </View>
         ))}
       </View>
-    </View>
+    </SafeAreaView>
   );
 }
 
